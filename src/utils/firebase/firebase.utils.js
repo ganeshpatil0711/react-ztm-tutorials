@@ -72,7 +72,7 @@ export const createUserDocumentFromAuth = async (userAuth, additionalInformation
     try {
       await setDoc(userDocRef,{displayName, email, createdAt, ...additionalInformation});
     } catch (error){
-      console.log('ganesh error creating the user', error.message);
+      console.log('error creating the user', error.message);
     }
   }
 }
