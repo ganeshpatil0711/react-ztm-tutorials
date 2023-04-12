@@ -39,7 +39,7 @@ const SignUpForm = () => {
         alert('Can not create user, email id already registered');
       }
       else {
-        console.log('ganesh error', error);
+        console.log('error', error);
       }
     }
 

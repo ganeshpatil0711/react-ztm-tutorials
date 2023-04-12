@@ -4,7 +4,6 @@ import { CategoriesContext } from "../../contexts/categories.context"
 
 const CategoriesPreview = () => {
   const { categoriesMap } = useContext(CategoriesContext);
-  console.log('ganesh categoriesMap', categoriesMap);
   return (
 
     <Fragment>
